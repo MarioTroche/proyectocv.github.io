@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+    background-color: aquamarine;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: hsl(56, 98%, 59%);
+    color: rgb(0, 195, 255);
+    padding: 10px;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background: white;
+    color: rgb(18, 200, 245);
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700
+}
+
+.nav-enlace:hover{
+    background: rgb(255, 252, 47);
+}
+
+button{
+    background: gold;
+    color: rgb(38, 15, 241);
+}
+
+button:hover{
+    background: rgb(0, 132, 255);
+    color: gold;
+}
+
+button:active{
+    background: blueviolet;
+}
+
+.nav-boton{
+    background: rgb(114, 250, 182);
+    color: white;
+    padding: 10px 0;
+    border: 2px solid white;
+    display: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imglog{
+    width: 40px;
+}
+
+span{
+    font-size: 23px;
+}
+.fb{
+    background: blue;
+    padding: 7px;
+    border-radius: 50px;
+    color: white;
+}
+.insta{
+    background: rgb(255, 0, 98);
+    padding: 7px;
+    border-radius: 50px;
+    color: white;
+}
+.tw{
+    background: rgb(0, 195, 255);
+    padding: 7px;
+    border-radius: 50px;
+    color: white;
+}
+.tch{
+    background: rgb(238, 255, 0);
+    padding: 7px;
+    border-radius: 50px;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.empresa{
+    font-size: 20px;
+    color: white;
+}
+.disclai{
+    display: flex;
+}
+.seccion{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3%;
+}
+.seccion div{
+    display: flex;
+    flex-direction: column;
+}
+div h3{
+    color: white;
+}
+a{
+    color: rgba(12, 27, 245, 0.692);
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 8px 16px;
+}
+.suscri{
+    padding: 8px 16px;
+    background: white;
+    color: blueviolet;
+    font-size: 18px;
+}
+
+@media (max-width: 600px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+    .disclai{
+        display: inline-block;
+    }
+}

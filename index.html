@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/c7efa6c6f7.js" crossorigin="anonymous"></script>
+    <title>Este es mi primer CV</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Estilos.css" />
+</head>
+<body>
+    <header>
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="#Info Personal" class="nav-enlace desaparece">Info Personal</a>
+        <a href="#Experiencias" class="nav-enlace desaparece">Experiencias</a>
+        <a href="#Habilidades" class="nav-enlace desaparece">Habilidades</a>
+    </nav>
+    </header>
+    <h1 class="titulo">Hola, bienvenidos a mi primer pagina CV HTML</h1>
+    <hr>
+    <div>
+    <section class="Info Personal" id="Info Personal">
+        <img
+    src="Imagenes/FotoPerfilCV.jpg"
+        alt="Foto de perfil de un programador"
+        />
+        <h2>Informacion Personal</h2>
+        <p>Yo soy:</p>
+        <p>Carter Davidson</p>
+        <p>Mi email es:</p>
+        <p>carter.davidson@example.com</p>
+        <p>Y naci el:</p>
+        <p>4/7/1960</p>
+        <p>Vivo en:</p>
+        <p>2537 Forest Ln</p>
+        <p>Mi nacionalidad es:</p>
+        <p>ARGENTINA</p>
+    </section>
+    </div>
+    <hr>
+    <div>
+    <section class="Experiencias" id="Experiencias">
+        <h2>Experiencias</h2>
+        <p>Programador Web</p>
+        <p>FloridaTech</p>
+        <p>Enero de 2019 – Noviembre de 2022</p>
+        <ul>
+        <li>Encargado del departamento de programación</li>
+        <li>Jefe del departamento de investigación</li>
+        <li>Desarrollo de más de 5 apps para teléfonos móviles</li>
+        <li>Aumento del rendimiento web en un 36%</li>
+        </ul>
+        <p>Programador de Aplicaciones</p>
+        <p>DojaInk</p>
+        <p>Marzo de 2017 – Diciembre de 2018</p>
+        <ul>
+        <li>Supervisor del área de desarrollo de apps</li>
+        <li>Salida al mercado de más de 6 aplicaciones para restaurantes</li>
+        <li>Automatización de servicios para alojamientos</li>
+        <li>Capacitación a nuevos programadores</li>
+        </ul>
+        <p>Desarrollo de Software</p>
+        <p>Silicon</p>
+        <p>Marzo de 2014 – Noviembre de 2017</p>
+        <ul>
+        <li>Creador de la página web de la empresa</li>
+        <li>Captación de más de 700 clientes en un tiempo inferior a un año</li>
+        <li>Implementación de tienda online</li>
+        <li>Automatización de redes sociales</li>
+        </ul>
+        <a href="https://www.ole.com.ar/" target="_blank">Click Aqui, pare ver uno de mis proyectos realizados</a>
+
+    </section>
+    </div>
+    <hr>
+    <div>
+    <section class="Habilidades" id="Habilidades">
+        <h2>Habilidades</h2>
+        <h4>Mis habilidades para el puesto son:</h4>
+        <ol>
+            <li>Una buena comunicación verbal</li>
+            <li>Asumir las críticas de forma constructiva</li>
+            <li>La capacidad organizativa</li>
+            <li>La facilidad para trabajar en equipo</li>
+            <li>El pensamiento crítico/lógico</li>
+            <li>Cuento con conocimientos de contabilidad</li>
+            <li>Poseo habilidades informáticas</li>
+            <li>Y tengo manejo de Idiomas (Ingles – Portugués)</li>
+        </ol>
+    </section>
+    </div>
+    <script src="JS/funciones.js"></script>
+    <footer class="pie">
+        <div class="header">
+            <div class="logo">
+                <img class="imglog" src="Imagenes/Logo.jpg" alt="logo de un mouse">
+                <p class="empresa">Desarollo Front End</p>
+            </div>
+            <div class="redes">
+                <span class="fb"><i class="fa-brands fa-facebook"></i></span>
+                <span class="insta"><i class="fa-brands fa-instagram"></i></span>
+                <span class="tw"><i class="fa-brands fa-twitter"></i></span>
+                <span class="tch"><i class="fa-brands fa-twitch"></i></span>
+            </div>
+        </div>
+        <hr>
+        <div class="disclai">
+        <p>Disclaimer: Todos los datos de esta pagina web son datos ficticios e inventados....</p>
+        <p>es solo a modo ejemplo y prueba para elaborar mi primera pagina web...</p>
+        </div>
+        <hr>
+        <div class="seccion">
+            <div>
+                <h3>Inicio</h3>
+                <nav>
+                <button class="nav-boton" onclick="accion()">Menu</button>
+                <a href="#Info Personal" class="nav-enlace desaparece">Info Personal</a>
+                <a href="#Experiencias" class="nav-enlace desaparece">Experiencias</a>
+                <a href="#Habilidades" class="nav-enlace desaparece">Habilidades</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Suscribete</h3>
+                <form action="">
+                    <input type="text" placeholder="ingresa tu email">
+                    <button class="suscri" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
